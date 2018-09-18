@@ -2,8 +2,8 @@
 Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Valerie Galluzzi, Mark Hays,
-         Amanda Stouder, their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Amanda Stouder, their colleagues and Anesu Chinoda.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import testing_helper
 import time
@@ -44,8 +44,33 @@ def problem2a_testing():
     print('---------------------------------------------------------')
     print('Testing the   sum_of_digits_of_sum_of_factors   function:')
     print('---------------------------------------------------------')
+    #Test 1:
+    expected = 4
+    actual = 9
+    print()
+    print('Expected:', expected)
+    print('Actual:  ', actual)
 
+    #Test 2:
+    expected = 6
+    actual = 24
+    print()
+    print('Expected:', expected)
+    print('Actual:  ', actual)
 
+    #Test 3:
+    expected = 9
+    actual = 30
+    print()
+    print('Expected:', expected)
+    print('Actual:  ', actual)
+
+    #Test 4:
+    expected = 6
+    actual = 14
+    print()
+    print('Expected:', expected)
+    print('Actual:  ', actual)
 def sum_of_digits_of_sum_of_factors(n):
     """
     Given a positive integer n,
@@ -70,12 +95,12 @@ def sum_of_digits_of_sum_of_factors(n):
 
 
 ################################################################################
-# TODO: 3.  READ the green doc-string for the   number_of_factors   function
+# Done: 3.  READ the green doc-string for the   number_of_factors   function
 #    defined below.  You do NOT need to understand its implementation,
 #    just its specification (per the doc-string).
 #    You should  ** CALL **  that function as needed in implementing
 #    the other functions.
-# TODO (continued):  After you have READ this _TODO_, change its _TODO_ to DONE.
+# Done (continued):  After you have READ this _TODO_, change its _TODO_ to DONE.
 ################################################################################
 
 def number_of_factors(n):
@@ -102,8 +127,8 @@ def number_of_factors(n):
 
     return count
     ############################################################################
-    #  TODO (continued):  Students: Do NOT touch the above   number_of_factors
-    #  TODO (continued)   function; CALL it as appropriate in problem(s) below.
+    #  Done (continued):  Students: Do NOT touch the above   number_of_factors
+    #  Done (continued)   function; CALL it as appropriate in problem(s) below.
     ############################################################################
 
 

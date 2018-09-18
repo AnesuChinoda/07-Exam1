@@ -2,15 +2,15 @@
 Exam 1, problem 3.
 
 Authors: David Mutchler, Vibha Alangar, Valerie Galluzzi, Mark Hays,
-         Amanda Stouder, their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Amanda Stouder, their colleagues and Anesu Chinoda.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_problem3()
+    #run_test_problem3()
 
 
 def run_test_problem3():
@@ -102,7 +102,8 @@ def problem3(point, length, delta, window):
     # TODO (continued):         and colors per the specified pattern.
     #          Tests have been written for you (above).
     # --------------------------------------------------------------------------
-
+    window = rg.RoseWindow
+    line = rg.Line(rg.Point(10, 20), 200)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
